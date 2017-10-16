@@ -28,7 +28,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(255, 153, 153);
+  color: rgb(268, 153, 153);
 }
 
 h2 {
@@ -41,10 +41,11 @@ font-family: Helvetica;
 
 #banner {
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url(image/beach.jpg);
+  background-position:center center;
   background-size: cover;
   padding: 150px;
-  color: white;
+  color: DarkSalmon;
   text-shadow: 1px 1px 5px black;
 }
 
@@ -58,11 +59,10 @@ font-family: Helvetica;
   font-size: 30px;
   font-weight: lighter;
 }
-#footer{
-  padding: 30px;
-  background: rgb(250, 250, 250);
-  color: lightgrey;
+#footer
+
 }
+
 .card{
   padding: 50px;
   font-weight: lighter;
